@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      .copiar-dados-liferay-result-text {
+        font-size: 13px;
+        color: #000;
+      }
+      .copiar-dados-liferay-result-text.success {
+        color: #02fc58;
+      }
+      .copiar-dados-liferay-result-text.failed {
+        font-size: 13px;
+        color: #af4444;
+      }
+      .colar-dados-liferay-result-text {
+        font-size: 13px;
+        color: #000;
+      }
+      .colar-dados-liferay-result-text.success {
+        color: #02fc58;
+      }
+      .colar-dados-liferay-result-text.failed {
+        font-size: 13px;
+        color: #af4444;
+      }
+      .container-liferay-ext {
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+      }
+      .content-liferay-item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+      }
+      .input-liferay-item {
+        height: 50px;
+        margin-bottom: 5px;
+        outline: none;
+      }
+      .button-liferay-ext {
+        height: 40px;
+        background: #cacaca;
+        border-radius: 8px;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 15px;
+        outline: none;
+      }
+      .button-liferay-ext:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-liferay-ext">
+      <div class="content-liferay-item">
+        <textarea
+          placeholder="O array do conteúdo copiado aparecerá aqui."
+          rows="5"
+          class="input-liferay-item copiar"
+          disabled
+        ></textarea>
+        <button class="button-liferay-ext button-copiar-dados-liferay">
+          Copiar formulário
+        </button>
+        <span class="copiar-dados-liferay-result-text"></span>
+      </div>
+      <div class="content-liferay-item">
+        <textarea
+          placeholder="Insira o array aqui."
+          rows="5"
+          class="input-liferay-item colar"
+        ></textarea>
+        <button class="button-liferay-ext button-colar-dados-liferay">
+          Colar formulário
+        </button>
+        <span class="colar-dados-liferay-result-text success"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
