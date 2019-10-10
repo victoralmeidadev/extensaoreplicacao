@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   //INSIRA O ID DO SEU USUARIO NO SISTEMA NA VARIAVEL ABAIXO
-  const ID_USUARIO = "106";
+  const ID_USUARIO = "";
 
   let botaoCopiar = document.querySelector("#button-copiar-dados-liferay");
   let botaoColar = document.querySelector("#button-colar-dados-liferay");
