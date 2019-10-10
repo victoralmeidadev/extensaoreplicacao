@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-liferay-ext">
+      <div class="content-liferay-item">
+        <textarea
+          placeholder="O array do conteúdo copiado aparecerá aqui."
+          rows="5"
+          class="input-liferay-item copiar"
+          disabled
+        ></textarea>
+        <button
+          id="button-copiar-dados-liferay"
+          class="button-liferay-ext button-copiar-dados-liferay"
+        >
+          <span class="text-btn">Copiar formulário</span>
+        </button>
+        <span class="copiar-dados-liferay-result-text"></span>
+      </div>
+      <div class="content-liferay-item">
+        <textarea
+          placeholder="Insira o array aqui."
+          rows="5"
+          class="input-liferay-item colar"
+        ></textarea>
+        <button
+          id="button-colar-dados-liferay"
+          class="button-liferay-ext button-colar-dados-liferay"
+        >
+          <span class="text-btn">Colar formulário</span>
+        </button>
+        <span class="colar-dados-liferay-result-text success"></span>
+      </div>
+      <div class="content-liferay-item">
+        <span></span>
+        <button
+          id="button-colar-sistema-dados-liferay"
+          class="button-liferay-ext button-colar-sistema-dados-liferay"
+        >
+          <span class="text-btn">Colar conteúdo do sistema nesse módulo</span>
+        </button>
+        <span class="colar-dados-liferay-result-text success"></span>
+      </div>
+      <div class="content-liferay-item">
+        <span></span>
+        <button
+          id="button-copiar-sistema-dados-liferay"
+          class="button-liferay-ext button-copiar-sistema-dados-liferay"
+        >
+          <span class="text-btn"
+            >Copiar conteúdo e enviar pendência sistema</span
+          >
+        </button>
+        <span class="colar-dados-liferay-result-text success"></span>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

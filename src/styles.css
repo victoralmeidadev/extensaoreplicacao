@@ -1,0 +1,58 @@
+.copiar-dados-liferay-result-text {
+  font-size: 13px;
+  color: #000;
+}
+.copiar-dados-liferay-result-text.success {
+  color: #418158;
+}
+.copiar-dados-liferay-result-text.failed {
+  font-size: 13px;
+  color: #af4444;
+}
+.colar-dados-liferay-result-text {
+  font-size: 13px;
+  color: #000;
+}
+.colar-dados-liferay-result-text.success {
+  color: #418158;
+}
+.colar-dados-liferay-result-text.failed {
+  font-size: 13px;
+  color: #af4444;
+}
+.container-liferay-ext {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+.content-liferay-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+}
+.input-liferay-item {
+  height: 50px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.button-liferay-ext {
+  min-height: 30px;
+  background: #4484ce;
+  border-radius: 4px;
+  color: #d9d9d9;
+
+  outline: none;
+}
+.button-liferay-ext .text-btn {
+  color: #d9d9d9;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.button-liferay-ext:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
