@@ -1,3 +1,3 @@
-const URL_REQUISICAO = "";
+const URL_REQUISICAO = "url";
 
-const TOKEN = "";
+const TOKEN = "token";
