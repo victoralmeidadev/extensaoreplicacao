@@ -1,1 +1,2 @@
-/src/config
+/src/config/index.js
+!/src/config
